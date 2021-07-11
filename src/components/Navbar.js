@@ -3,7 +3,8 @@ import styled from 'styled-components';
 
 
 function Navbar(){
-  const [skills, setSkills] = useState([
+  {{/*useState hook for state management*/}}
+  const [skills] = useState([
     {"name":"reactjs","link":"https://reactjs.org/"},
     {"name":"javascript","link":"https://developer.mozilla.org/en-US/docs/Web/JavaScript"},
     {"name":"HTML","link":"https://www.w3schools.com/html/"},
@@ -12,12 +13,10 @@ function Navbar(){
   ])
   return (
     <NavStyle>
-    <h2 className="skl-head">Skills</h2>
       <nav className="nav-link">
+      <h2 className="skl-head">Skills</h2>
       {skills.map(skl=>{
-        return<a href={skl.link}>
-          <p>{skl.name}</p>
-        </a>
+        return<a href={skl.link}><p><b>{skl.name}</b></p></a>
       }
         )}
       </nav>
@@ -32,6 +31,8 @@ const NavStyle = styled.div`
   width:100%;
   display:flex;
   flex-wrap:nowrap;
+  // position:fixed;
+  float:left;
   height:5vh;
   box-shadow: 0 3 0 0;
 }
@@ -45,11 +46,15 @@ const NavStyle = styled.div`
 
 a{
   text-decoration:none;
-  width:5vw;
+  // width:5vw;
   margin:1%;
 }
 a:hover{
-  background-color:blue;
+  text-decoration:underline;
+  color:lightgrey;
+}
+p{
+  width:100%;
 }
 `
 

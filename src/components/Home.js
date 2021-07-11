@@ -94,6 +94,10 @@ const HomeStyle = styled.div`
   color:blue;
 }
 
+h1{
+  font-size:270%;
+}
+
 
 
 `
