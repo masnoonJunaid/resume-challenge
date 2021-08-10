@@ -44,8 +44,6 @@ function Home(){
       </div>
       <div className="right-art-1">
         <article>
-          <p>Ward-03, Astipur</p>
-          <p>Hajipur,Vaishali,Bihar</p>
           <p><b>+91 9798971823</b></p>
           <p><b>masnoon20@gmail.com</b></p>
         </article>
@@ -75,6 +73,7 @@ const HomeStyle = styled.div`
 
 *{
   width:80%;
+  margin-top:4%;
 }
 
 .horizontal-block-1{

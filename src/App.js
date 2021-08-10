@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar"
 import Home from "./components/Home"
 import Footer from "./components/Footer"
 import Lorem from "./components/Lorem"
-import {Route, Switch} from "react-router-dom"
+import {Route} from "react-router-dom"
 
 function App() {
   return (

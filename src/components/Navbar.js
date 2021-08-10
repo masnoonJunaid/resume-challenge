@@ -25,6 +25,14 @@ function Navbar(){
 }
 
 const NavStyle = styled.div`
+// *{
+//     height: 5vh;
+//     position: fixed;
+//     margin-left: 8%;
+//     width: 100%;
+//     float:left;
+//     display:flex;
+// }
 *{
   padding:0;
   margin:0;
@@ -55,6 +63,10 @@ a:hover{
 }
 p{
   width:100%;
+}
+h2{
+  color:blue;
+  margin-left:4%;
 }
 `
 
