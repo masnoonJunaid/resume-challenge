@@ -1,3 +1,42 @@
+
+
+## What is inside this
+```bash
+
+├── public - # A folder of useful icons for the project and root .html file .
+
+└── src
+     ├── components
+        ├── Footer.js #footer component , contains stuffs to stay in touch with organization
+        ├── Home.js # Default and interactive UI
+        ├── Lorem.js #lorem ipsom text component
+        ├── Navbar.js # Navbar component
+   ├── App.css # Styles for your app. Feel free to customize this as you desire.
+   ├── App.js # This is the root of your app. Contains static HTML right now.
+   ├── App.test.js # Used for testing. Provided with Create React App. Testing is encouraged, but not required.
+   ├── index.css # Global styles.
+   └── index.js #  It is used for DOM rendering only.
+   └──logo.svg # A svg
+   └──reportWebVitals.js
+   └──setupTests.js
+├── .gitignore # gitignore file.
+├── package-lock.json # json file.
+├── package.json # package record.
+├── README.md # This file .
+├── yarn.lock
+
+```
+# Contribution
+* It's a complete and personal project. No need to contribute.
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
