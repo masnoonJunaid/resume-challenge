@@ -8,11 +8,11 @@
 └── src
      ├── components
         ├── Footer.js #footer component , contains stuffs to stay in touch with organization
-        ├── Home.js # Default and interactive UI
+        ├── Home.js # Default home page component.
         ├── Lorem.js #lorem ipsom text component
         ├── Navbar.js # Navbar component
    ├── App.css # Styles for your app. Feel free to customize this as you desire.
-   ├── App.js # This is the root of your app. Contains static HTML right now.
+   ├── App.js # JavaScript file .
    ├── App.test.js # Used for testing. Provided with Create React App. Testing is encouraged, but not required.
    ├── index.css # Global styles.
    └── index.js #  It is used for DOM rendering only.
