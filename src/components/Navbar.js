@@ -49,6 +49,11 @@ const NavStyle = styled.div`
   margin-left:auto;
   margin-right:auto;
   text-align:center;
+  top:0;
+  background-color:ghostwhite;
+  align-items:center;
+  position:fixed;
+  height:10vh;
 
 }
 
